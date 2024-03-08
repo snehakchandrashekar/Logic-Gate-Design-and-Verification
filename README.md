@@ -1,8 +1,8 @@
 # Logic-Gate-Design-and-Verification
 
 **Tools used**
-Spice netlist simulation - Ngspice
-Layout Design and DRC - Magic
-LVS - Netgen
-Schematic Capture - Xcircuit
-functional verification - IRsim
+1. Spice netlist simulation - Ngspice
+2. Layout Design and DRC - Magic
+3. LVS - Netgen
+4. Schematic Capture - Xcircuit
+5. functional verification - IRsim
