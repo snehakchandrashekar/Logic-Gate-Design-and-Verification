@@ -1,3 +1,4 @@
 This folder contains - 
 1. Magic output and netlist files.
 2. Design of Inverter and NAND3 gates layout in Magic
+3. Layouts of Inverter and nand3 without DRC erroros
