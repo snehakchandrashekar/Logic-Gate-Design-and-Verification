@@ -1,1 +1,2 @@
-
+Analog simulation is done using ngspice.
+This folder contains the simulation results of the transient analysis for inverter and nand3 gates.
