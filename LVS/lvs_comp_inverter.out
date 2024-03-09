@@ -1,0 +1,40 @@
+
+Subcircuit summary:
+Circuit 1: INVX2.spc                       |Circuit 2: inverte.spice                   
+-------------------------------------------|-------------------------------------------
+pfet (1)                                   |pfet (1)                                   
+nfet (1)                                   |nfet (1)                                   
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+nfet:2 vs. nfet:1000:
+ L circuit1: 6e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 3e-06   circuit2: 10   (delta=200%, cutoff=1%)
+nfet:2 vs. nfet:1000:
+Property ps in circuit2 has no matching property in circuit1
+nfet:2 vs. nfet:1000:
+Property as in circuit2 has no matching property in circuit1
+nfet:2 vs. nfet:1000:
+Property pd in circuit2 has no matching property in circuit1
+nfet:2 vs. nfet:1000:
+Property ad in circuit2 has no matching property in circuit1
+pfet:1 vs. pfet:1001:
+ L circuit1: 6e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 6e-06   circuit2: 20   (delta=200%, cutoff=1%)
+pfet:1 vs. pfet:1001:
+Property ps in circuit2 has no matching property in circuit1
+pfet:1 vs. pfet:1001:
+Property as in circuit2 has no matching property in circuit1
+pfet:1 vs. pfet:1001:
+Property pd in circuit2 has no matching property in circuit1
+pfet:1 vs. pfet:1001:
+Property ad in circuit2 has no matching property in circuit1
+Cells have no pins;  pin matching not needed.
+Device classes INVX2.spc and inverte.spice are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ INVX2.spc
