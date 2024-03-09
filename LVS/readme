@@ -1,1 +1,3 @@
-
+Layout Versus Schematic (LVS) is performed using Netgen.
+This folder contains the results of the LVS for Inverter and NAND3 gates.
+LVS comparison is made using Xcircuit and magic Spice files.
